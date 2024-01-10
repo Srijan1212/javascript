@@ -1,0 +1,10 @@
+
+const bars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < bars.length; i++) {
+
+  text += bars[i] +"\n" ;
+}
+
+console.log(text )
