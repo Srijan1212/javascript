@@ -66,3 +66,66 @@ console.log(result)
 //username = window.prompt("what's your username");
 //console.log(username);
 
+/*let username;
+document.getElementById("mySubmit").onclick= function(){
+    username =document.getElementById("My text").value;
+    username =document.getElementById( "myH1").textContent=`Hello ${username}`;
+    console.log(username);
+}
+*/
+//let age = window.prompt("How old are you ?");
+//age=Number(age)
+//age +=1;
+//console.log(age ,typeof age);
+/*
+
+let x= "pizza";
+let y= "pizza";
+let z= "pizza";
+
+x= Number(x);
+y= String(y);
+z= Boolean(z);
+
+console.log(x, typeof x)
+
+console.log(y, typeof y)
+console.log(z, typeof z)
+*/
+/*
+const PI= 3.14159;
+let radius;
+let circumference;
+pi=200
+
+radius= window.prompt("Enter radius");
+radius= Number(radius)
+circumference= 2* PI *radius;
+area= PI * radius *radius;
+console.log("circumference="+circumference)
+console.log("area="+area)
+*/
+
+//let x = 2.20;
+//let y = 4.53;
+//let z=2;
+
+
+//z=Math.round(x);
+//z=Math.floor(y)
+//z=Math.ceil(x)
+//z=Math.trunc(x)
+//z=Math.pow(x ,y)
+//z=Math.sqrt(x)
+//z=Math.log(x)
+//z=Math.sin(x)
+//z=Math.cos(x)
+//z=Math.tan(x)
+//z=Math.sign(x)
+
+//let max=Math.max(x ,y,z)
+//let min=Math.min(x ,y,z)
+
+
+//console.log(max);
+//console.log(min)
