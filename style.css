@@ -1,27 +1,14 @@
-#countLabel{
-    display:block;
-    text-align: center;
-    font-size: 10em;
-    font-family: 'Times New Roman', Times, serif;
+body{
+    font-family: Verdana;
+    text-align : center;
 
 }
-#buttonContainer{
-    
-    text-align: center;
-   
-
-}
-.buttons{
-    padding:10px 20px;
-    font-size: 1.5 ex;
-    color: rgb(246, 249, 252);
-    background-color: hsl(214,100%, 74%);
+#myButton{
+    font-size: 3em;
+    padding: 5px 25px;
     border-radius: 5px;
-    cursor:pointer;
-    transition: background-color 0.25s;
+
 }
-.buttons:hover{
-    background-color:hsl(214, 91%, 46%) ;
-
-
+.mtLabel{
+    font-size: 3em; 
 }
