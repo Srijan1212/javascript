@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<form>
+    <h1>Temperature</h1>
+    <input id="textbox" type="number" value="0" ><br><br>
+    <input id="Tofahrenheit" type="radio" name="unit">
+    <label for="Tofahrenheit">celcius     ➡️fahrenheit</label><br>
+    <input id="ToCelcius" type="radio" name="unit">
+    <label for="ToCelcius">fahrenheit  ➡️celcius</label><br><br><br>
+    <button onclick="convert()" type="button">submit</button>
+    <p id="result"></p>
+</form>
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
